@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background:rgba(0,0,0,0.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 30px;
+            align-items: center;
+            border:1px solid black;
+            border-radius: 20px;
+            width:500px;
+            height:400px;
+        }
+        button{
+            display: block;
+            font-size: 1em;
+            padding:1em 9em;
+            border:1px solid black;
+            outline:line;
+            background: white;
+            border-radius: 20px;
+            color:black;
+            font-weight: bold;
+            transition: 0.5s;
+
+        }
+        button:hover{
+            transition: 0.5s;
+            background-color:hsla(226, 40%, 31%, 0.742);
+            color:white;
+            font-weight: bold;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="image_upload.jsp">
+            <button>Image-upload</button>
+        </a>
+        <a href="details_upload.jsp">
+            <button>Details-upload</button>
+        </a>
+    </div>
+</body>
+</html>
